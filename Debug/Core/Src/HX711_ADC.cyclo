@@ -1,0 +1,37 @@
+../Core/Src/HX711_ADC.cpp:14:1:HX711_ADC::HX711_ADC(GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t)	1
+../Core/Src/HX711_ADC.cpp:39:6:void HX711_ADC::setGain(uint8_t)	3
+../Core/Src/HX711_ADC.cpp:47:6:void HX711_ADC::begin()	1
+../Core/Src/HX711_ADC.cpp:56:6:void HX711_ADC::begin(uint8_t)	1
+../Core/Src/HX711_ADC.cpp:80:6:void HX711_ADC::start(long unsigned int)	2
+../Core/Src/HX711_ADC.cpp:116:6:void HX711_ADC::start(long unsigned int, bool)	3
+../Core/Src/HX711_ADC.cpp:183:5:int HX711_ADC::startMultiple(long unsigned int)	10
+../Core/Src/HX711_ADC.cpp:297:5:int HX711_ADC::startMultiple(long unsigned int, bool)	11
+../Core/Src/HX711_ADC.cpp:384:6:void HX711_ADC::tare()	4
+../Core/Src/HX711_ADC.cpp:411:6:void HX711_ADC::tareNoDelay()	1
+../Core/Src/HX711_ADC.cpp:419:6:void HX711_ADC::setCalFactor(float)	1
+../Core/Src/HX711_ADC.cpp:426:6:bool HX711_ADC::getTareStatus()	1
+../Core/Src/HX711_ADC.cpp:434:7:float HX711_ADC::getCalFactor()	1
+../Core/Src/HX711_ADC.cpp:468:9:uint8_t HX711_ADC::update()	4
+../Core/Src/HX711_ADC.cpp:520:6:bool HX711_ADC::dataWaitingAsync()	4
+../Core/Src/HX711_ADC.cpp:551:6:bool HX711_ADC::updateAsync()	2
+../Core/Src/HX711_ADC.cpp:562:7:float HX711_ADC::getData()	1
+../Core/Src/HX711_ADC.cpp:571:6:long int HX711_ADC::smoothedData()	4
+../Core/Src/HX711_ADC.cpp:667:6:void HX711_ADC::conversion24bit()	9
+../Core/Src/HX711_ADC.cpp:746:6:void HX711_ADC::powerDown()	1
+../Core/Src/HX711_ADC.cpp:753:6:void HX711_ADC::powerUp()	1
+../Core/Src/HX711_ADC.cpp:760:6:long int HX711_ADC::getTareOffset()	1
+../Core/Src/HX711_ADC.cpp:766:6:void HX711_ADC::setTareOffset(long int)	1
+../Core/Src/HX711_ADC.cpp:773:5:int HX711_ADC::getReadIndex()	1
+../Core/Src/HX711_ADC.cpp:780:7:float HX711_ADC::getConversionTime()	1
+../Core/Src/HX711_ADC.cpp:788:7:float HX711_ADC::getSPS()	1
+../Core/Src/HX711_ADC.cpp:797:6:bool HX711_ADC::getTareTimeoutFlag()	1
+../Core/Src/HX711_ADC.cpp:802:6:void HX711_ADC::disableTareTimeout()	1
+../Core/Src/HX711_ADC.cpp:807:6:long int HX711_ADC::getSettlingTime()	1
+../Core/Src/HX711_ADC.cpp:815:6:void HX711_ADC::setSamplesInUse(int)	6
+../Core/Src/HX711_ADC.cpp:845:5:int HX711_ADC::getSamplesInUse()	1
+../Core/Src/HX711_ADC.cpp:851:6:void HX711_ADC::resetSamplesIndex()	1
+../Core/Src/HX711_ADC.cpp:873:6:bool HX711_ADC::refreshDataSet()	3
+../Core/Src/HX711_ADC.cpp:891:6:bool HX711_ADC::getDataSetStatus()	2
+../Core/Src/HX711_ADC.cpp:902:7:float HX711_ADC::getNewCalibration(float)	1
+../Core/Src/HX711_ADC.cpp:913:6:bool HX711_ADC::getSignalTimeoutFlag()	1
+../Core/Src/HX711_ADC.cpp:920:6:void HX711_ADC::setReverseOutput()	1

@@ -1,0 +1,18 @@
+
+
+#ifndef HX711_ADC_config_h
+#define HX711_ADC_config_h
+
+//number of samples in moving average dataset, value must be 1, 2, 4, 8, 16, 32, 64 or 128.
+#define SAMPLES 					16		//default value: 16
+
+//adds extra sample(s) to the dataset and ignore peak high/low sample, value must be 0 or 1.
+#define IGN_HIGH_SAMPLE 			1		//default value: 1
+#define IGN_LOW_SAMPLE 				1		//default value: 1
+
+
+#define SCK_DELAY					0		//default value: 0
+
+#define SCK_DISABLE_INTERRUPTS		0		//default value: 0
+
+#endif
